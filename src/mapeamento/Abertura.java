@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+Authors:
  */
 
 package mapeamento;
@@ -28,6 +29,7 @@ public class Abertura extends javax.swing.JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 600);
         this.setVisible(true);
+        System.out.println();
     }
 
     public void alteraLabelrodape(String text){
